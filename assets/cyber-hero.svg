@@ -1,0 +1,92 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#050816"/>
+      <stop offset="0.5" stop-color="#081B33"/>
+      <stop offset="1" stop-color="#07111E"/>
+      <animate attributeName="x1" values="0;200;0" dur="12s" repeatCount="indefinite" />
+      <animate attributeName="y2" values="420;250;420" dur="12s" repeatCount="indefinite" />
+    </linearGradient>
+    <linearGradient id="neon" x1="130" y1="70" x2="1080" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00E5FF"/>
+      <stop offset="0.5" stop-color="#7CFFB2"/>
+      <stop offset="1" stop-color="#A855F7"/>
+      <animate attributeName="x1" values="130;260;130" dur="8s" repeatCount="indefinite" />
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" stroke="#163450" stroke-width="1" opacity="0.45"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="420" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="420" rx="28" fill="url(#grid)" opacity="0.7"/>
+
+  <ellipse cx="600" cy="210" rx="410" ry="145" fill="#00E5FF" opacity="0.08" filter="url(#soft)">
+    <animate attributeName="rx" values="390;430;390" dur="9s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.05;0.1;0.05" dur="6s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <g opacity="0.75" stroke="url(#neon)" stroke-width="2">
+    <path d="M80 310C190 230 260 255 342 170C423 87 498 108 600 185C685 248 760 267 875 200C968 146 1040 155 1120 100" stroke-dasharray="14 18">
+      <animate attributeName="stroke-dashoffset" values="0;-220" dur="11s" repeatCount="indefinite"/>
+    </path>
+    <path d="M92 118C222 205 317 130 420 205C512 272 635 292 738 228C826 175 927 128 1110 210" stroke-dasharray="10 16">
+      <animate attributeName="stroke-dashoffset" values="0;180" dur="10s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <g filter="url(#glow)">
+    <circle cx="130" cy="95" r="5" fill="#00E5FF">
+      <animate attributeName="r" values="4;8;4" dur="3.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1035" cy="118" r="5" fill="#7CFFB2">
+      <animate attributeName="r" values="5;9;5" dur="4.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="975" cy="312" r="6" fill="#A855F7">
+      <animate attributeName="r" values="5;10;5" dur="4.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="245" cy="325" r="6" fill="#00E5FF">
+      <animate attributeName="r" values="5;9;5" dur="4.1s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <g opacity="0.85">
+    <rect x="70" y="62" width="182" height="52" rx="16" fill="#0B1730" stroke="#1BE7FF" stroke-opacity="0.4"/>
+    <text x="92" y="94" fill="#C7F8FF" font-family="Verdana, Arial, sans-serif" font-size="18" font-weight="700">SYSTEMS</text>
+    <circle cx="216" cy="88" r="7" fill="#7CFFB2">
+      <animate attributeName="opacity" values="0.35;1;0.35" dur="2s" repeatCount="indefinite"/>
+    </circle>
+
+    <rect x="948" y="292" width="185" height="52" rx="16" fill="#0B1730" stroke="#A855F7" stroke-opacity="0.45"/>
+    <text x="970" y="324" fill="#F0E3FF" font-family="Verdana, Arial, sans-serif" font-size="18" font-weight="700">AUTOMATION</text>
+    <circle cx="1098" cy="318" r="7" fill="#00E5FF">
+      <animate attributeName="opacity" values="0.35;1;0.35" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <g filter="url(#glow)">
+    <text x="600" y="165" text-anchor="middle" fill="url(#neon)" font-family="Verdana, Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="6">OWINOVATIVE</text>
+    <text x="600" y="238" text-anchor="middle" fill="#F5FBFF" font-family="Verdana, Arial, sans-serif" font-size="54" font-weight="900">VINCENT OWINO</text>
+    <text x="600" y="284" text-anchor="middle" fill="#C8DAE7" font-family="Verdana, Arial, sans-serif" font-size="22" font-weight="600">Software Engineer • Systems Builder • Interface Craftsman</text>
+  </g>
+
+  <g opacity="0.75" font-family="Verdana, Arial, sans-serif" font-size="14" font-weight="700">
+    <text x="96" y="364" fill="#7CFFB2">ROBUST ARCHITECTURE</text>
+    <text x="454" y="364" fill="#00E5FF">PRODUCT THINKING</text>
+    <text x="822" y="364" fill="#D8B4FE">BEAUTIFUL EXECUTION</text>
+  </g>
+
+  <rect x="22" y="22" width="1156" height="376" rx="24" stroke="url(#neon)" stroke-opacity="0.55" stroke-width="2">
+    <animate attributeName="stroke-opacity" values="0.35;0.95;0.35" dur="5s" repeatCount="indefinite"/>
+  </rect>
+</svg>
