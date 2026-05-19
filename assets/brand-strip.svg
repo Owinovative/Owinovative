@@ -1,0 +1,29 @@
+<svg width="1200" height="120" viewBox="0 0 1200 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#05070B"/>
+      <stop offset="1" stop-color="#0B1722"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="120" y1="60" x2="1080" y2="60" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FDFF" stop-opacity="0"/>
+      <stop offset="0.22" stop-color="#F8FDFF"/>
+      <stop offset="0.5" stop-color="#86DFFF"/>
+      <stop offset="0.78" stop-color="#C7F1FF"/>
+      <stop offset="1" stop-color="#F8FDFF" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-100%" width="160%" height="300%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="120" rx="24" fill="url(#bg)"/>
+  <path d="M80 60H1120" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" filter="url(#glow)"/>
+  <circle cx="600" cy="60" r="7" fill="#86DFFF" filter="url(#glow)">
+    <animate attributeName="r" values="6;11;6" dur="2.8s" repeatCount="indefinite"/>
+  </circle>
+  <text x="600" y="48" text-anchor="middle" fill="#FFFFFF" font-family="Verdana, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="4">OWINOVATIVE</text>
+  <text x="600" y="88" text-anchor="middle" fill="#CDEFFF" font-family="Verdana, Arial, sans-serif" font-size="24" font-weight="900">SYSTEMS • PRODUCT • EXECUTION</text>
+</svg>
