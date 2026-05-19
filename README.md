@@ -3,7 +3,7 @@
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=2600&pause=850&color=86DFFF&center=true&vCenter=true&width=1080&height=58&lines=I+build+systems+that+feel+powerful.;I+turn+ideas+into+production-grade+products.;I+care+about+speed%2C+clarity%2C+and+engineering+depth.;Welcome+to+the+Owinovative+command+center." alt="Animated introduction" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=2500&pause=800&color=86DFFF&center=true&vCenter=true&width=1100&height=58&lines=I+build+systems+that+feel+powerful.;I+turn+ideas+into+production-grade+products.;I+design+with+clarity.+I+ship+with+discipline.;Welcome+to+the+Owinovative+command+center." alt="Animated introduction" />
 </div>
 
 <div align="center">
@@ -15,36 +15,42 @@
   <img src="https://img.shields.io/github/stars/Owinovative?style=for-the-badge&logo=github&label=STARS&color=111827" alt="GitHub stars" />
 </div>
 
+<br/>
+
+<div align="center">
+  <img src="./assets/brand-strip.svg" width="100%" alt="Owinovative brand strip" />
+</div>
+
 ---
 
-## 🧠 Identity Matrix
+## 🧠 Executive Profile
 
 <table>
 <tr>
-<td width="56%" valign="top">
+<td width="58%" valign="top">
 
 ### **Vincent Owino**
 **Software Engineer · Systems Builder · Product-minded Creator**
 
-I build digital products around three standards:
+I build digital products around three non-negotiables:
 
 - **Strength** — robust architecture, maintainable foundations, scalable thinking
-- **Clarity** — clean interfaces, clear flows, readable systems
-- **Usefulness** — tools that solve real problems and feel polished in use
+- **Clarity** — clean interfaces, readable systems, purposeful execution
+- **Impact** — tools that solve real problems and feel polished in real use
 
-My focus is building **working systems, modern websites, and powerful tools** that feel professional from the inside out.
+My focus is creating **working systems, modern websites, and powerful tools** that communicate competence before a user reads a single line of code.
 
 </td>
-<td width="44%" valign="top">
+<td width="42%" valign="top">
 
 ```txt
 ┌──────────────────────────────┐
-│ OWINOVATIVE // LIVE PROFILE  │
+│ OWINOVATIVE // CONTROL PANEL │
 ├──────────────────────────────┤
 │ Mode:        BUILDING        │
+│ Standard:    PREMIUM         │
 │ Focus:       SYSTEMS         │
-│ Quality Bar: PREMIUM         │
-│ Energy:      FULL STACK      │
+│ Bias:        EXECUTION       │
 │ Mission:     SHIP IMPACT     │
 └──────────────────────────────┘
 ```
@@ -55,15 +61,15 @@ My focus is building **working systems, modern websites, and powerful tools** th
 
 ---
 
-## ⚡ Engineering Command Center
+## ⚡ Capability Grid
 
-| Domain | Signal |
+| Domain | Signature |
 |---|---|
-| **Frontend** | React, Next.js, responsive UI, polished interaction design |
-| **Backend** | Node.js, app logic, dependable architecture |
-| **Product** | Real-world usability, workflow thinking, meaningful outcomes |
-| **Automation** | GitHub Actions, repeatable processes, developer efficiency |
-| **Mindset** | Build boldly. Refine relentlessly. Ship what matters. |
+| **Frontend Engineering** | React, Next.js, responsive UI, polished interaction design |
+| **Backend Thinking** | Node.js, application structure, dependable logic, data flow |
+| **Product Craft** | Real-world usability, workflow clarity, problem-first decisions |
+| **Automation** | GitHub Actions, repeatable pipelines, cleaner iteration |
+| **Engineering Taste** | Refined visuals without sacrificing reliability |
 
 ---
 
@@ -88,30 +94,24 @@ My focus is building **working systems, modern websites, and powerful tools** th
 
 ---
 
-## 🚀 Featured Build Systems
+## 🚀 Signature Builds
 
 <table>
 <tr>
-<td width="50%" valign="top">
-
-### [Invinceible Core HMS](https://github.com/Owinovative/invinceible_core_hms_v2)
-A serious healthcare-oriented system built with reliability, structure, and usability in mind.
-
-**Focus:** workflow strength, product clarity, scalable full-stack thinking.
-
+<td width="50%" align="center" valign="top">
+  <a href="https://github.com/Owinovative/invinceible_core_hms_v2">
+    <img src="./assets/project-hms.svg" width="100%" alt="Invinceible Core HMS project card" />
+  </a>
 </td>
-<td width="50%" valign="top">
-
-### [Invinceible Core](https://github.com/Owinovative/Invinceible_Core)
-A core project that reflects my approach to purposeful engineering and practical software delivery.
-
-**Focus:** systems thinking, clean execution, strong foundations.
-
+<td width="50%" align="center" valign="top">
+  <a href="https://github.com/Owinovative/Invinceible_Core">
+    <img src="./assets/project-core.svg" width="100%" alt="Invinceible Core project card" />
+  </a>
 </td>
 </tr>
 </table>
 
-### Primary Mission Themes
+### **Why these builds matter**
 
 | Build Theme | Why It Matters |
 |---|---|
@@ -122,9 +122,36 @@ A core project that reflects my approach to purposeful engineering and practical
 
 ---
 
+## 📡 Product Philosophy
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### **01 · Systems**
+I care about structure that survives complexity, not just code that works once.
+
+</td>
+<td width="33%" valign="top">
+
+### **02 · Interface**
+I want products to feel smooth, intentional, and trustworthy at first contact.
+
+</td>
+<td width="33%" valign="top">
+
+### **03 · Delivery**
+I value momentum: building, refining, and getting useful work into the world.
+
+</td>
+</tr>
+</table>
+
+---
+
 ## 📊 GitHub Activity Snapshot
 
-The previous third-party stat cards were removed because they were displaying broken fallback text in the GitHub mobile app. This section now stays clean and reliable across devices.
+The unreliable third-party repo and stats image cards were removed so this profile stays clean across GitHub desktop and mobile.
 
 | Signal | Focus |
 |---|---|
