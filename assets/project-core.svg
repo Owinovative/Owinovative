@@ -1,0 +1,45 @@
+<svg width="560" height="260" viewBox="0 0 560 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="560" y2="260" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#05070B"/>
+      <stop offset="1" stop-color="#0D1A26"/>
+    </linearGradient>
+    <linearGradient id="stroke" x1="24" y1="24" x2="536" y2="236" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FDFF"/>
+      <stop offset="0.55" stop-color="#7DDCFF"/>
+      <stop offset="1" stop-color="#BDEEFF"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="560" height="260" rx="28" fill="url(#bg)"/>
+  <rect x="18" y="18" width="524" height="224" rx="22" stroke="url(#stroke)" stroke-opacity="0.55" stroke-width="2">
+    <animate attributeName="stroke-opacity" values="0.35;0.9;0.35" dur="5.4s" repeatCount="indefinite"/>
+  </rect>
+
+  <circle cx="98" cy="68" r="62" fill="#86DFFF" opacity="0.08" filter="url(#glow)"/>
+  <path d="M40 148C110 112 170 126 232 154C298 184 362 176 424 128C468 94 500 94 520 108" stroke="#86DFFF" stroke-width="2.5" stroke-dasharray="9 12" opacity="0.8">
+    <animate attributeName="stroke-dashoffset" values="0;170" dur="9.5s" repeatCount="indefinite"/>
+  </path>
+
+  <rect x="42" y="38" width="172" height="34" rx="12" fill="#0A1520" stroke="#86DFFF" stroke-opacity="0.35"/>
+  <text x="58" y="60" fill="#EAFBFF" font-family="Verdana, Arial, sans-serif" font-size="15" font-weight="700">CORE PROJECT</text>
+
+  <text x="42" y="112" fill="#FFFFFF" font-family="Verdana, Arial, sans-serif" font-size="28" font-weight="900">Invinceible Core</text>
+  <text x="42" y="145" fill="#C9F1FF" font-family="Verdana, Arial, sans-serif" font-size="16" font-weight="600">Purposeful engineering • Clean execution • Product depth</text>
+
+  <g font-family="Verdana, Arial, sans-serif" font-size="13" font-weight="700">
+    <rect x="42" y="176" width="96" height="30" rx="10" fill="#09131D" stroke="#7DDCFF" stroke-opacity="0.45"/>
+    <text x="62" y="196" fill="#EAFBFF">PRODUCT</text>
+    <rect x="148" y="176" width="106" height="30" rx="10" fill="#09131D" stroke="#7DDCFF" stroke-opacity="0.45"/>
+    <text x="170" y="196" fill="#EAFBFF">QUALITY</text>
+    <rect x="264" y="176" width="108" height="30" rx="10" fill="#09131D" stroke="#7DDCFF" stroke-opacity="0.45"/>
+    <text x="282" y="196" fill="#EAFBFF">EXECUTION</text>
+  </g>
+</svg>
