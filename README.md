@@ -202,3 +202,4 @@ The unreliable third-party repo and stats image cards were removed so this profi
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1220,50:7DD3FC,100:F8FDFF&height=170&section=footer" alt="Footer wave" />
 
 </div>
+
