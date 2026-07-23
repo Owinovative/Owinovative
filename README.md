@@ -120,6 +120,7 @@ My focus is creating **working systems, modern websites, and powerful tools** th
 | **Developer acceleration** | Better tooling, smoother iteration |
 | **Premium UX** | Software should feel as sharp as it performs |
 
+
 ---
 
 ## 📡 Product Philosophy
